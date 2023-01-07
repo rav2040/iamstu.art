@@ -1,0 +1,21 @@
+.main {
+  font-family: monospace;
+  font-size: 1.25rem;
+}
+
+.content-wrapper {
+  display: inline-block;
+}
+
+.text-wrapper {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: text-bottom;
+}
+
+@media (min-width: 600px) {
+  .main {
+    font-size: 1.75rem;
+  }
+}
